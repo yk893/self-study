@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>HTML Forms</h1>
-    <form action="" method="get">
+    <form action="result.html" method="get">
 
-<label for="">username:</label>
+        <!-- label ve input kullanimi -->
+      <label for="">username:</label><br />
+      <input type="text" id="fname" name="isim"  placeholder="adiniz"/><br />
+
+      <label for="">surname:</label><br />
+      <input type="text" id="sname" name="soyisim"  placeholder="soyadiniz"/>
+
+      <div>
+        <label for="sifre">password</label>
+        <br>
+        <input type="password" name="parola" id="sifre" placeholder="sifre..." >
+      </div>
+
+      <!-- radio -->
+      <div>
+
+        <label for="">cinsiyet</label><br>
+        <label for="gender1">Male</label>
+        <input type="radio" name="cinsiyet" id="gender1" value="erkek" checked>
+        <label for="gender2">Female</label>
+        <input type="radio" name="cinsiyet" id="gender2" value="kadin">
+        <label for="diger">other</label>
+        <input type="radio" name="cinsiyet" id="gender3" value="diger">
+      </div>
+
+      <!-- checkbox -->
 <br>
-    <input type="text" id="fname">
+      <div>
 
+        <label>Select fav animals</label><br>
+        <input type="checkbox" name="animal_1" id="panda" value="panda" checked>
+        <label for="panda">Panda</label>
+        <input type="checkbox" name="animal_2" id="balik" value="balik">
+        <label for="balik">balik</label>
+        <input type="checkbox" name="animal_3" id="kedi" value="kedi">
+        <label for="kedi">kedi</label>
+      </div>
 
+      <br /><br /><br /><br /><br /><br /><br /><br />
 
-
-
-<br><br><br><br><br><br><br><br>
-
-    <input type="submit"  value="Send">
+      <input type="submit" value="Send" />
     </form>
-</body>
+  </body>
 </html>
