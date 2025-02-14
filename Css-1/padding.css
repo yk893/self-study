@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darksalmon;
+    padding: 1px;
+}
+.div1{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 50px; */
+}
+
+.div2{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* padding: 5px; */
+    border: 20px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.div3{
+    background-color: fuchsia;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 20px; */
+}
+
+p{
+
+    border: 5px solid red;
+    background-color: bisque;
+    padding: 10px 20px 30px 40px;
+    
+}
+
+.block{
+
+    border: 2px solid red;
+    background-color: orange;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.inline{
+
+    background-color: magenta;
+    margin: auto;  
+    /* margin inline elementlerde calismaz */
+}
