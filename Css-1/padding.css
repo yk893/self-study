@@ -58,3 +58,17 @@ p{
     margin: auto;  
     /* margin inline elementlerde calismaz */
 }
+
+#sync{
+    background-color: cyan;
+    border-radius: 10%;
+    border: 10px dotted blueviolet;
+    margin: 40px;
+    padding: 40px;
+    color: brown;
+    
+}
+#sync:hover{
+    background-color: black;
+    border: blue 40px solid ;
+}
