@@ -20,8 +20,8 @@ background-color:  red;
     background-color: rgb(110, 74, 74);
 
 }
-.par5{background-color: hsl(315, 100, 50);
-
+.par5{ 
+    background-color: #ab4580
 }
 .par6{
     background-color: rgba(0, 0, 255, 0.66);
@@ -29,7 +29,7 @@ background-color:  red;
 
 }
 .par7{
-    background-color: hsl(120, 100, 50);
+    background-color: rgb(200, 150, 66)
 
 }
 
