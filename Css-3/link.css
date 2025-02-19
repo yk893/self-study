@@ -82,4 +82,7 @@ ul.before-after li::before{
 
 ul.before-after li::after{
 content: '🚓';
+display: inline;
+border: 2px solid red;
+background-color: orange;
 }
