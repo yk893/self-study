@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
 
 #par1{
 
-    font-family: 'Courier New', Courier, monospace;
-
+    font-family: "Jacquarda Bastarda 9", serif;
     font-size: 1.5rem;
 }
 
 #par2{
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
-    font-style: italic;
+    font-family: "Grechen Fuemen", serif;
+   font-size: 24px;
+    font-style:italic;
     font-weight: 400px;
    
 }
 
 #par3{
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Delius", serif;
     font-variant: small-caps;
     font-weight: 400px;
     font-weight: bolder;
 }
 
 #par4{
-    font-family: "Monomakh", serif;
+    font-family: "Dancing Script", serif;
     font-weight: 400;
     font-style: normal;
       }
