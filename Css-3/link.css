@@ -1,0 +1,85 @@
+
+
+
+
+nav.link a:link{
+    color: teal;
+
+
+}
+
+nav.link a:visited{
+    color: magenta;
+
+
+}
+nav.link a:active{
+    color: red;
+
+
+}
+nav.link a:hover{
+    text-decoration: none;
+
+
+}
+
+.cw{
+    margin-top: 20px;
+}
+
+nav.cw a{
+
+    text-decoration: none;
+    border:  2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orange;
+    color: gray;
+
+
+}
+nav.cw a:hover{
+    background-color: gray;
+    color: orange;
+}
+nav.cw a:active{
+    background-color: maroon;
+    color: yellow;
+}
+
+
+
+/* PSEUDO ELEMENTS */
+
+.par1::first-line{
+    color: yellow;
+    background-color: blue;
+
+}
+.par1::first-letter{
+    font-size: 2rem;
+    color: orange;
+    background-color: crimson;
+}
+
+ul.before-after{
+    list-style-type: none;
+}
+
+ul.before-after li{
+    background-color: lightsalmon;
+    margin: 5px;
+    width: 40%;
+    border-radius: 10px;
+    padding: 0 10px;
+
+}
+
+ul.before-after li::before{
+    content:'🚗';
+     }
+
+ul.before-after li::after{
+content: '🚓';
+}

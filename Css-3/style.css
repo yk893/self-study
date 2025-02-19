@@ -1,6 +1,10 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&display=swap');
+
+
+
 ul.languages{
 list-style: none;
 list-style-type: decimal;
@@ -34,3 +38,60 @@ ul.languages li:hover{
 h2{
     color: purple;
 }
+
+/* pseudo classes */
+
+ul.pseudo li:first-child{
+    background-color:  red;
+    
+}
+ul.pseudo li:last-child{
+    background-color: blue
+    
+}
+ul.pseudo li:last-child{
+    font-family: "Bitter", serif;
+    
+}
+ul.pseudo li:first-child{
+font-family: "Caveat", serif;
+}
+
+ul.pseudo li:nth-child(3){
+    background-color: orange;
+    font-size: 30px;
+    font-weight: 700;
+}
+ul.pseudo li:nth-child(5){
+    background-color: peru;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+ul.pseudo li:hover{
+    background-color: green;
+   color: yellow;
+}
+
+ul.pseudo li:active{
+    background-color: fuchsia};
+
+    input{
+        background-color: crimson;
+        outline: none;
+        color: white;
+    }
+    input:focus{
+        background-color: orange;
+        color: green;
+        outline: none;
+    }
+    .out{
+        border: 10px solid black;
+        width: 100px;
+        height: 30px;
+        outline: 10px solid red;
+
+        outline-offset: 5px;
+        margin: 30px;
+        border-top-right-radius: 10px;
+    }
