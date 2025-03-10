@@ -1,0 +1,44 @@
+
+@import url(./theme.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+:root{
+    --turuncu:#ad7101;
+    --font1:"Big Shoulders", sans-serif;
+    --font2:"Big Shoulders Inline", sans-serif;
+    --renk1:rgb(88, 88, 0);
+
+}  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+h1{
+    background-color: var(--turuncu);
+    font-family: var(--font1);
+}
+
+p{
+    background-color: var(--turuncu)
+    
+}
+
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    box-shadow: var();
+  }
+  
+  .light {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+  }
+  
+  .dark {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+  }
