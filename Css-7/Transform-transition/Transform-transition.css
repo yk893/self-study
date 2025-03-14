@@ -1,0 +1,81 @@
+.text{
+    text-align: center;
+    font-size: 2rem;
+    width: 50vw;
+    margin:1.5rem auto;
+}
+
+.text1{
+    background-color: darkcyan;
+    transform: rotateX(180deg);
+    
+}
+.text2{
+background-color: fuchsia;
+transform: rotateY(180deg);
+}
+.text3{
+ background-color: orange;
+ 
+}
+
+.text3:active
+{transform: rotate(45deg);}
+
+.text4{
+background-color: red;
+ transform: scaleX(1.5);
+}
+
+.text5{
+background-color:olive;
+
+}
+
+.text5:active{
+  transform: scaleY(1.5);  
+}
+
+.text6{
+background-color: crimson;
+
+}
+
+.text6:hover{
+    transform: scale(1.7);
+}
+
+img{
+    transform: skew(25deg,45deg);
+}
+
+
+.box{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+
+.x{
+    
+    
+}
+
+.x:active{
+    transform: translateX(50px);
+    background-color: fuchsia;
+}
+.y{
+   
+}
+.y:active{
+     transform: translateY(50px);
+    background-color: fuchsia;
+}
+
+.xy:active{
+background-color: orange;
+transform: translate(200px,-100px);
+}
