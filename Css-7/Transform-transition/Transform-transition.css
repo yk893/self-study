@@ -20,7 +20,8 @@ transform: rotateY(180deg);
 }
 
 .text3:active
-{transform: rotate(45deg);}
+{transform: rotate(45deg);
+transform-origin: left;}
 
 .text4{
 background-color: red;
@@ -59,22 +60,29 @@ img{
 
 
 .x{
-    
+    transition: all ease-in-out 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
     
 }
 
 .x:active{
-    transform: translateX(50px);
+    transform: translateX(450px);
     background-color: fuchsia;
 }
 .y{
-   
+   transition: all ease-in-out 2s;
 }
 .y:active{
      transform: translateY(50px);
     background-color: fuchsia;
 }
 
+.xy{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 .xy:active{
 background-color: orange;
 transform: translate(200px,-100px);
