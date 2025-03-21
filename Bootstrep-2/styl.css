@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Ruge+Boogie&family=Sixtyfour+Convergence&display=swap');
 
 :root{
     --primary-color:#bc6c25;
@@ -9,87 +9,184 @@
 }
 
 *{
-    font-family: "Plus Jakarta sans",serif;
+    font-family: "Plus Jakarta Sans",serif;
 }
 
-/* NAVBAR  */
+
+
+
+/** NAVBAR */
+
 
 .navbar{
-    position: fixed;
-    z-index: 2;
+    position:fixed;
+    z-index: 5;
     width: 100%;
 }
 
 .navbar .container{
+
     background-color: rgba(0,0,0,0.7);
     text-transform: capitalize;
     font-weight: bold;
-
 }
 
 .navbar-nav{
-    font-size: 1.3rem;
+    font-size:1.3rem;
 }
 
 .nav-link{
-    color: white !important;
-
+    color:white !important;
 }
 .nav-link:hover{
-    color: var(--primary-color) !important;
+    color:var(--primary-color) !important;
 
 }
 
-/* CAROUSEL  */
-
+/** CAROUSEL */
 
 .carousel-item{
     height: 100vh;
 }
 .carousel-item img{
-    height: 100%;
+    height:100%;
     object-fit: cover;
 }
 
 .carousel-caption .btn{
     background-color: var(--primary-color);
-    border: none;
+    border:none;
     width: 10rem;
     font-weight: bold;
-    color: white;
+    color:white;
 }
-
 .carousel-caption .btn:first-child{
     background-color: transparent;
 }
+
 .carousel-caption .btn:first-child:hover{
     background-color: white;
-    color: black;
+    color:black
 }
 
 .carousel-caption{
-    bottom: 40%;
+    bottom:40%;
 }
 
 .hero{
-    position: relative;
-    z-index: 3;
-}
-.black{
-    background-color: rgba(0,0,0,0.7);
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(45deg);
+    position:relative;
+    z-index:3;
 }
 
+.black{
+background-color:rgba(0,0,0,0.7) ;
+width: 450px;
+height: 450px;
+
+position: absolute;
+
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) rotate(45deg)
+
+}
+
+
 .carousel-indicators{
-    gap: 0.7rem;
+    gap:0.7rem;
 }
 .carousel-indicators button{
+background-color: var(--primary-color) !important;
+padding:0.1rem !important;
+width: 3rem !important;
+
+}
+
+/** MEET PEOPLE */
+
+section#people{
+    background-color: var(--section-color);
+
+}
+section#people .container{
+background-color: var(--secondary-color);
+padding: 2rem 1rem;
+
+}
+section#people .card{
     background-color: var(--primary-color);
-    padding: 0.1rem !important;
-    width: 3rem !important;
+    transition:all 0.5s;
+    overflow: hidden;
+
+}
+section#people .card:hover{
+    transform:scale(1.05)
+}
+
+section#people .card img{
+    transition:all 0.5s;
+}
+
+section#people .card img:hover{
+    transform:scale(1.05)
+}
+
+section#people .card i{
+    transition: all 0.5s;
+}
+
+section#people .card i:hover{
+opacity:0.5;
+}
+
+/** OUR MENU */
+
+section#menu{
+    background-color:var(--secondary-color);
+  
+}
+
+section#menu .menu-header{
+    color:var(--primary-color)
+}
+
+section#menu .container{
+    background-color: var(--primary-color);
+}
+
+section#menu button{
+    background-color: var(--secondary-color);
+    margin-right: 1rem;
+}
+
+/** CONTACT */
+
+section#contact{
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(188, 108, 37,0.5)) , url("./img/slider2.jpg") ;
+}
+section#contact input,
+section#contact textarea{
+    background-color: inherit;
+}
+section#contact input:focus,
+section#contact textarea:focus{
+    background-color: var(--primary-color)
+}
+
+label{
+    color:white;
+}
+
+input::placeholder{
+    color:white !important;
+}
+
+textarea{
+    resize:none;
+    height: 100px !important;
+}
+
+.google-map{
+    filter:grayscale(100%);
+    border-radius:1.5rem;
 }
